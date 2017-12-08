@@ -1,0 +1,27 @@
+<div class="container ">
+    <br><br><br><br>
+    <h3><b> Login </b></h3>
+    <form (submit)="login()">
+      <div class="imgcontainer">
+          <span class="glyphicon glyphicon-user lg"></span>
+      </div>
+    
+      <div class="container">
+        <div class=" alert-danger text-center">{{error}}</div>
+        <label><b>Username</b></label>
+        <input type="text" [(ngModel)]="user.userName" placeholder="Enter Username" name="uname" required>
+    
+        <label><b>Password</b></label>
+        <input type="password" [(ngModel)]="user.password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Login</button>
+        <input type="checkbox" checked="checked"> Remember me
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    
+  </div>

@@ -1,0 +1,37 @@
+/*nav-bar*/
+.fancy-monk {
+	font-size: 25px;
+	color: #EFEBE9;
+	margin: 0px;
+	text-align: center;
+	height: 100vh;
+	min-height: 400px;
+	background-image: url("../../assets/img/bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.5px);
+}
+.fancy-monk h1 {
+	font-size: 40px;
+	margin: 0;
+	padding-top: 150px;
+}
+.signinup{
+ width:100%;
+ height:135vh;
+ background:grey;
+ opacity:0.6;
+}
+.btn-danger{
+    background:#ce1e42;
+    width:300px;
+}
+.fancy-txt{position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+	bottom: 25%;
+	font-weight: bolder;
+}
+

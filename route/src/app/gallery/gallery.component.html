@@ -1,0 +1,20 @@
+<div class="container-fluid ">
+  <br><br><br><br>
+  <h3><b> Gallery</b></h3>
+  <div class="col-md-12">
+    <div class="row">
+      <hr>
+      <button class="btn btn-default" [class.active]="filterCondition === 'all'" (click)="filterCondition = 'all'"><b>All</b></button>
+      <button class="btn btn-default" [class.active]="filterCondition === 'car'" (click)="filterCondition = 'car'"><b>Car</b></button>
+      <button class="btn btn-default" [class.active]="filterCondition === 'bike'" (click)="filterCondition = 'bike'"><b>Bike</b></button>
+      <button class="btn btn-default" [class.active]="filterCondition === 'truck'" (click)="filterCondition = 'truck'"><b>Truck</b></button>
+
+      <div class="gal">
+
+              <img *ngFor="let img of (imageData | filter: filterCondition)" src="{{img.img_url}}" >
+
+      </div>
+
+    </div>
+  </div>
+</div>

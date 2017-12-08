@@ -1,0 +1,13 @@
+a {font-size: 20px!important;}
+/* a:hover,visited{color:#BCB9B9 !important;} */
+.navbar-inverse {
+    background-color: #010101;
+    /* border-color: #312f2f; */
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+    color: white !important;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    border-radius: 0px;
+}
+
